@@ -1,1 +1,0 @@
-dataset: 480 datapoints, 2000 dims, 15 classes

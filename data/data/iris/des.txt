@@ -1,2 +1,0 @@
-trainset: 100 datapoints, 4 dims, 3 classes
-testset: 50 datapoints

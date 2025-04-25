@@ -1,0 +1,46 @@
+/* Trang nền login */
+body.login-page {
+    background: url('../images/background-login.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.login-card h2 {
+    color: #4caf50;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+#loginButton {
+    background: linear-gradient(135deg, #4caf50, #0056b3);
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#loginButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+#loginForm .form-control {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+#loginForm .form-control:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

@@ -1,0 +1,95 @@
+/* General page styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #212529;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Table styling */
+.table {
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background: #343a40;
+    color: #ffffff;
+}
+
+.table th {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+    padding: 12px;
+    text-align: left;
+}
+
+.table tbody tr {
+    transition: all 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.table tbody td {
+    padding: 12px;
+    font-size: 14px;
+    color: #495057;
+}
+
+.table tbody td a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.table tbody td a:hover {
+    text-decoration: underline;
+}
+
+/* Button styling */
+.action-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-accept {
+    background-color: #28a745;
+    color: #ffffff;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-accept:hover {
+    background-color: #218838;
+}
+
+.btn-reject {
+    background-color: #dc3545;
+    color: #ffffff;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-reject:hover {
+    background-color: #c82333;
+}

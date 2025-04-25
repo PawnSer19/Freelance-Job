@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jobList.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" href="homepage.html">FreelanceFinder</a>
+            <li>
+                <a href="jobPost.html" class="post-job-btn ms-3">Post Job</a>
+            </li>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h1 class="text-center py-3 px-4 shadow-sm rounded">List of Your Jobs</h1>
+        <div class="job-list-card mt-4 p-4 bg-white shadow-sm rounded">
+            <table class="table mt-4 table table-bordered text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Job Title</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="ListJob">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/jobList.js"></script>
+</body>
+
+</html>

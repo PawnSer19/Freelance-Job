@@ -1,0 +1,56 @@
+/* Tổng thể trang */
+body {
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+}
+
+
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tbody tr:hover {
+    background-color: #e9f7e9;
+}
+
+.card {
+    border-radius: 10px;
+    background: white;
+    padding: 20px;
+}
+
+/* Nút trong bảng */
+.table-hover tbody tr td:last-child a {
+    margin: 0 5px;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.table-hover tbody tr td:last-child a.edit {
+    background-color: #4CAF50;
+}
+
+.table-hover tbody tr td:last-child a.delete {
+    background-color: #d9534f;
+}
+
+.table-hover tbody tr td:last-child a:hover {
+    opacity: 0.9;
+}

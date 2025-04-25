@@ -1,0 +1,55 @@
+
+body.register-page {
+    background: url('../images/background-login.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #4caf50;
+    font-family: 'Arial', sans-serif;
+}
+
+
+#register {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    margin: auto;
+    color: #fff;
+}
+
+#registerForm .btn {
+    background: linear-gradient(135deg, #4caf50, #0056b3);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#registerForm .btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+#register h2 {
+    color: #4caf50;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+
+#registerForm .form-control {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ccc;
+    color: #fff;
+}
+
+#registerForm .form-control:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+#registerForm .form-label {
+    color: #fff;
+}

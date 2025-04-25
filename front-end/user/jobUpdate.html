@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Job</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jobUpdate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" href="homepage.html">FreelanceFinder</a>
+            <li>
+                <a href="jobPost.html" class="post-job-btn ms-3">Post Job</a>
+            </li>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h1 class="text-center">Update Job</h1>
+        <form id="updateJobForm">
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" class="form-control" id="title" name="title" required>
+            </div>
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea class="form-control" id="description" name="description" rows="3" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="required_skills" class="form-label">Required Skills</label>
+                <input type="text" class="form-control" id="required_skills" name="required_skills" required>
+            </div>
+            <div class="mb-3">
+                <label for="salary_range" class="form-label">Salary Range</label>
+                <input type="text" class="form-control" id="salary_range" name="salary_range" required>
+            </div>
+            <div class="mb-3">
+                <label for="deadline" class="form-label">Deadline</label>
+                <input type="date" class="form-control" id="deadline" name="deadline" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Update</button>
+        </form>
+    </div>
+    <script src="js/updateJob.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+    color: #212529;
+    min-height: 100vh;
+}
+
+
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: color 0.3s;
+    color: #4caf50 !important;
+}
+
+.navbar-brand:hover {
+    color: white !important;;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color:#4caf50
+}
+
+.navbar-text {
+    font-size: 1rem;
+}
+
+.name-hover {
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.name-hover:hover {
+    color: blue;
+    transform: scale(1.1);
+}
+
+.hero {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('../images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+
+.featured-jobs .card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.featured-jobs .card:hover {
+    transform: scale(1.05);
+}
+
+.featured-jobs .card-img-top {
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.pagination-container {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.page-btn {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.page-btn:hover {
+    background: #007bff;
+    color: white;
+}
+
+.page-btn.active {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+
+#dropdownMenuButton {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(135deg, #4caf50, #388e3c);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 0.7rem;
+    align-items: center;
+    display: none;
+    justify-content: center;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+#dropdownMenuButton i {
+    font-size: 0.5rem;
+}
+
+#dropdownMenuButton:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #66bb6a, #43a047);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Menu dropdown */
+#dropdownMenu {
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5rem 0;
+    min-width: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#dropdownMenu .dropdown-item {
+    font-size: 1rem;
+    color: #333;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#dropdownMenu .dropdown-item:hover {
+    background: #4caf50;
+    color: white;
+}
+
+#dropdownMenu .dropdown-item.text-danger {
+    color: #e53935;
+    font-weight: bold;
+}
+
+#dropdownMenu .dropdown-item.text-danger:hover {
+    background: #e53935;
+    color: white;
+}
+
+.dropdown-menu {
+    top: 100%;
+    left: 0;
+    transform: translateY(0);
+}
+
+.post-job-btn {
+    background-color:#4caf50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+}
+
+.post-job-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    background-color: #388e3c;
+}
+
+.search-bar-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.search-bar .form-control {
+    border: none;
+    border-radius: 0;
+    padding: 10px 15px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.search-bar .btn {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.search-bar .btn:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+}

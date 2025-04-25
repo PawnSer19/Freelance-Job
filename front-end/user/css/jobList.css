@@ -1,0 +1,76 @@
+
+body {
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3.5rem;
+        font-weight: bold;
+        color: #ffffff;
+        text-shadow: 2px 2px 8px rgba(246, 238, 238, 0.6);
+        background-color: #00f53a;
+        background: rgba(3, 191, 18, 0.8);
+        width: fit-content;
+        padding: 10px 20px;
+        border-radius: 10px;
+        display: block;
+        margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+thead th {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+}
+
+tbody tr {
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+tbody tr:hover {
+    background-color: #e9f7e9;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Nút trong bảng */
+.table-hover tbody tr td:last-child a {
+    margin: 0 5px;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.table-hover tbody tr td:last-child a.edit {
+    background-color: #4CAF50;
+}
+
+.table-hover tbody tr td:last-child a.delete {
+    background-color: #d9534f;
+}
+
+.table-hover tbody tr td:last-child a:hover {
+    opacity: 0.9;
+}
+

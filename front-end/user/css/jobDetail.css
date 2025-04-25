@@ -1,0 +1,83 @@
+/* Tổng thể */
+body {
+    background: url('../images/userProfile.jfif') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+h1#jobTitle {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(246, 238, 238, 0.6);
+    background: rgba(72, 187, 120, 0.8);
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+#applyJobButton {
+    display: block;
+    margin: 20px auto;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.card .card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.card-text strong {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.card-text span {
+    font-weight: normal;
+    color: #212529;
+}
+
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+        color: #212529;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+}
